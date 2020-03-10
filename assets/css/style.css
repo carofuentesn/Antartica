@@ -7,15 +7,24 @@ body {
 
 .barra_nav {
   background-color: #005f69!important;
-  color: #fff !important;
   text-decoration: none;
 }
 .barra_nav a {
-  color: #fff;
+  color:#b8c3c4;
 }
 
 .barra_nav a:hover {
-  color: gray;
+  color:#fff;
+}
+
+.navbar__icon {
+  color:#fff;
+  padding-right: 15px;
+}
+
+
+@media (min-width: 576px) {
+  
 }
 
 /* slider*/
