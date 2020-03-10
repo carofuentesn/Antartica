@@ -1,0 +1,1127 @@
+/* Webfont: Lato-Black */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-BlackItalic */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('fonts/Lato-BlackItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-BlackItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-BlackItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-BlackItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Bold */@font-face {
+    font-family: 'LatoWebBold';
+    src: url('fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-BoldItalic */@font-face {
+    font-family: 'LatoWebBold';
+    src: url('fonts/Lato-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-BoldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Hairline */@font-face {
+    font-family: 'LatoWebHairline';
+    src: url('fonts/Lato-Hairline.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Hairline.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Hairline.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Hairline.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-HairlineItalic */@font-face {
+    font-family: 'LatoWebHairline';
+    src: url('fonts/Lato-HairlineItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-HairlineItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-HairlineItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-HairlineItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Heavy */@font-face {
+    font-family: 'LatoWebHeavy';
+    src: url('fonts/Lato-Heavy.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Heavy.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Heavy.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-HeavyItalic */@font-face {
+    font-family: 'LatoWebHeavy';
+    src: url('fonts/Lato-HeavyItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-HeavyItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-HeavyItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Italic */@font-face {
+    font-family: 'LatoWeb';
+    src: url('fonts/Lato-Italic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Italic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Italic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Light */@font-face {
+    font-family: 'LatoWebLight';
+    src: url('fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-LightItalic */@font-face {
+    font-family: 'LatoWebLight';
+    src: url('fonts/Lato-LightItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-LightItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-LightItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-LightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Medium */@font-face {
+    font-family: 'LatoWebMedium';
+    src: url('fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-MediumItalic */@font-face {
+    font-family: 'LatoWebMedium';
+    src: url('fonts/Lato-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-MediumItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-MediumItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Regular */@font-face {
+    font-family: 'LatoWeb';
+    src: url('fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Semibold */@font-face {
+    font-family: 'LatoWebSemibold';
+    src: url('fonts/Lato-Semibold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Semibold.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Semibold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Semibold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-SemiboldItalic */@font-face {
+    font-family: 'LatoWebSemibold';
+    src: url('fonts/Lato-SemiboldItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-SemiboldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-SemiboldItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-SemiboldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Thin */@font-face {
+    font-family: 'LatoWebThin';
+    src: url('fonts/Lato-Thin.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Thin.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Thin.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-ThinItalic */@font-face {
+    font-family: 'LatoWebThin';
+    src: url('fonts/Lato-ThinItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-ThinItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-ThinItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-ThinItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+
+
+
+
+/* Clase que tendra el tooltip */  
+.cssToolTip {
+ position: relative; /* Esta clase tiene que tener posicion relativa */
+  /* Color del texto */
+}
+.cssToolTipF {
+ position: relative; /* Esta clase tiene que tener posicion relativa */
+  /* Color del texto */
+}
+ 
+/* El tooltip */
+.cssToolTip div.toolTip {
+ /*background: rgba(20,20,20,0.9) url('img/info.gif') center left 5px no-repeat; */
+ background-color: #ffffff;
+ border: 1px solid #005357;
+
+
+ font-family:LatoWeb;
+ font-size: 9pt;
+ color: #005357;
+ display: none; /* El tooltip por defecto estara oculto */
+ text-align: center;
+ padding: 5px 5px 5px 5px;
+ max-width: 6000px;
+ position: absolute; /* El tooltip se posiciona de forma absoluta para no modificar el aspezto del resto de la pagina */
+ top: 25px; /* Posicion apartir de la parte superior del primer elemento padre con posicion relativa */
+ left: 10px; /* Posicion apartir de la parte izquierda del primer elemento padre con posicion relativa */
+ z-index: 999999; /* Poner un z-index alto para que aparezca por encima del resto de elementos */
+}
+.cssToolTipF div.toolTip {
+ /*background: rgba(20,20,20,0.9) url('img/info.gif') center left 5px no-repeat; */
+ background-color: #ffffff;
+ border: 1px solid #005357;
+
+
+ font-family:LatoWeb;
+ font-size: 9pt;
+ color: #005357;
+ display: none; /* El tooltip por defecto estara oculto */
+ text-align: center;
+ padding: 5px 5px 5px 5px;
+ max-width: 6000px;
+ position: absolute; /* El tooltip se posiciona de forma absoluta para no modificar el aspezto del resto de la pagina */
+ top: -40px; /* Posicion apartir de la parte superior del primer elemento padre con posicion relativa */
+ left: 10px; /* Posicion apartir de la parte izquierda del primer elemento padre con posicion relativa */
+ z-index: 999999; /* Poner un z-index alto para que aparezca por encima del resto de elementos */
+}
+ 
+/* El tooltip cuando se muestra */
+.cssToolTip:hover div.toolTip {
+ display: inline; /* Para mostrarlo simplemente usamos display block por ejemplo */
+}
+.carro_tit1{font-family:  LatoWebBold; color: #666533; border-left: 1px #666533 solid; text-align: center; padding-top: 4px; font-size: 8pt; height: 23px; width: 80px; float: left;margin-left: 300px;}
+.carro_tit2{font-family:  LatoWebBold; color: #666533; border-left: 1px #666533 solid; text-align: center; padding-top: 4px;  font-size: 8pt; height: 23px; width: 55px; float: left;}
+.carro_tit3{font-family:  LatoWebBold; color: #666533; border-left: 1px #666533 solid; text-align: center; padding-top: 4px;  font-size: 8pt; height: 23px; width: 70px; float: left;}
+.carro_tit4{font-family:  LatoWebBold; color: #666533; border-left: 0px #666533 solid; text-align: center; padding-top: 4px;  font-size: 8pt; height: 23px; width: 100px; float: left;}
+.precioCarro{font-family:  LatoWebBold; color: #005357;font-size: 10pt;}
+.precioCarro{font-family:  LatoWebBold; color: #005357;font-size: 10pt; text-align: center;}
+.txtClubRegistroRR{
+   color:#005357;
+   font-family:  LatoWeb;
+   font-size: 7pt;
+  text-align: center;
+  vertical-align: top;
+   /*font-weight: bold;*/
+   
+}
+.txtClubRegistroC{color:#2ab5b3;font-family:  LatoWebHeavy;}
+.txtClubRegistroA{color:#005357;font-family:  LatoWebHeavy;}
+.txtClubRegistroR{color:#2ab5b3;font-family:  LatoWebHeavy;}
+   
+.txtClubRegistroRAA{color:#2ab5b3;font-family:  LatoWebHeavy; text-decoration: none;}
+/* El tooltip cuando se muestra */
+.cssToolTipF:hover div.toolTip {
+ display: inline; /* Para mostrarlo simplemente usamos display block por ejemplo */
+}
+
+
+
+.txt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+}
+.txtClub
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+        color: #154285;
+}
+.sugCliente {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+}
+.sugCliente a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+        text-decoration: none;
+}
+.txtPrecioAntestBT {
+	font-family: LatoWeb;
+	font-size: 7pt;
+	color: #005357;
+}
+.txtBtoneraPeq
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: #83835C;
+    line-height: 15px;
+}
+.precioAntes {
+    
+        margin-top: 5px;
+	font-family: LatoWeb;
+	font-size: 9pt;
+	color: #005357;
+        
+}
+
+.precioAntes2 {
+    
+	font-family: LatoWeb;
+	font-size: 9pt;
+	color: #005357;
+        
+}
+
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+.txtImaInv img{
+    visibility: hidden;
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #d36f23;
+color:white;
+}
+
+.precioAhora {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #660000;
+	line-height: 15px;
+	font-weight: bold;
+}
+.precioAhoraS {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #660000;
+	line-height: 15px;
+	font-weight: bold;
+}
+.precioAhoraP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #660000;
+	line-height: 15px;
+	font-weight: bold;
+}
+.precioAhoraFicha {
+    
+        margin-top: 5px;
+	font-family: LatoWebBold;
+	font-size: 12pt;
+	color: #005357;
+;
+}
+.precioAhoraFicha2 {
+    
+	font-family: LatoWebBold;
+	font-size: 12pt;
+	color: #005357;
+}
+.titLibroOferta {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #83835C;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.titLibroOferta:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #83835C;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.titLibroOferta:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #83835C;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.titLibroOferta:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #83835C;
+	line-height: 15px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.txtBtoneraNov {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #83835C;
+	line-height: 15px;
+}
+a.txtBtoneraNov:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #83835C;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNov:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #83835C;
+	line-height: 15px;
+	text-decoration: none;
+	border-width: 5px;
+}
+a.txtBtoneraNov:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #83835C;
+	line-height: 15px;
+	text-decoration: underline;
+	border-width: 5px;
+}
+
+.txtBtoneraNovMiAntartica {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #10896E;
+	line-height: 15px;
+}
+a.txtBtoneraNovMiAntartica:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #10896E;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovMiAntartica:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #10896E;
+	line-height: 15px;
+	text-decoration: none;
+	border-width: 5px;
+}
+a.txtBtoneraNovMiAntartica:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #10896E;
+	line-height: 15px;
+	text-decoration: underline;
+	border-width: 5px;
+}
+
+
+.txtTituloBtonera {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #83835C;
+	line-height: 15px;
+	background-color: #CFCFBC;
+}
+.txtBtoneraNovMusica {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #47609B;
+	line-height: 15px;
+}
+a.txtBtoneraNovMusica:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #47609B;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovMusica:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #47609B;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovMusica:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #47609B;
+	line-height: 15px;
+	text-decoration: underline;
+}
+
+.txtBtoneraNovTextos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7D53D5;
+	line-height: 15px;
+}
+a.txtBtoneraNovTextos:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7D53D5;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovTextos:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7D53D5;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovTextos:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7D53D5;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.txtTituloBtoneraDvd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #4992C8;
+	line-height: 15px;
+	background-color: #A5D0EA;
+}
+.txtBtoneraNovDvd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4992C8;
+	line-height: 15px;
+}
+a.txtBtoneraNovDvd:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4992C8;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovDvd:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4992C8;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovDvd:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4992C8;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.txtBtoneraNovRegalos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D43052;
+	line-height: 15px;
+}
+a.txtBtoneraNovRegalos:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D43052;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovRegalos:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D43052;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovRegalos:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D43052;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.txtTituloBtoneraRegalos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #D43130;
+	line-height: 15px;
+	background-color: #E5938F;
+}
+.txtTituloBtoneraLibros {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #005457;
+	line-height: 15px;
+	background-color: #99BFBF;
+}
+.txtTituloBtoneraEbooks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #999999;
+	line-height: 15px;
+	background-color: #cccccc;
+}
+.txtBtoneraNovGrandeLibros {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #005457;
+	line-height: 15px;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeLibros:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #005457;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeLibros:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #005457;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeLibros:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: underline;	
+	color: #005457;
+	line-height: 15px;
+	font-weight: bold;
+}
+.txtBtoneraNovGrandeMusica {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #47609B;
+	line-height: 15px;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeMusica:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #47609B;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeMusica:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #47609B;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeMusica:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: underline;	
+	color: #47609B;
+	line-height: 15px;
+	font-weight: bold;
+}
+.txtBtoneraNovGrandeDVD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #4992C8;
+	line-height: 15px;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeDVD:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #4992C8;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeDVD:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #4992C8;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeDVD:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: underline;	
+	color: #4992C8;
+	line-height: 15px;
+	font-weight: bold;
+}
+.txtBtoneraNovGrandeRegalos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #D43052;
+	line-height: 15px;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeRegalos:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #D43052;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeRegalos:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #D43052;
+	line-height: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.txtBtoneraNovGrandeRegalos:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: underline;	
+	color: #D43052;
+	line-height: 15px;
+	font-weight: bold;
+}
+.txtBtoneraNovLibros {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #005457;
+	line-height: 15px;
+}
+.txtBtoneraNovEbooks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	line-height: 15px;
+}
+a.txtBtoneraNovLibros:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #005457;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovEbooks:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovLibros:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #005457;
+	line-height: 15px;
+	text-decoration: none;
+}
+a.txtBtoneraNovLibros:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;	
+	color: #005457;
+	line-height: 15px;
+}
+a.txtBtoneraNovEbooks:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #999999;
+	line-height: 15px;
+}
+.txtTituloBtoneraMusica {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #47609B;
+	line-height: 15px;
+	background-color: #94A0B9;
+}
+.txtTituloBtoneraTextos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #7D53D5;
+	line-height: 15px;
+	background-color: #94A0B9;
+}
+.precioInternet {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #660000;
+	line-height: 15px;
+	font-weight: bold;
+}
+.txtprecioReferencia {
+	font-family: LatoWebBold;
+	font-size: 8.5pt;
+	color: #005357;
+	
+}
+.txtprecioReferencia2 {
+	font-family: LatoWebBold;
+	font-size: 12pt;
+	color: #005357;
+	
+}
+.txtOfertaClubA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #32c5d2;
+	line-height: 15px;
+	font-weight: normal;
+}
+.txtOfertaClubB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #005E62;
+	line-height: 15px;
+	font-weight: normal;
+}
+.txtOfertaClubC {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #F39200;
+	line-height: 15px;
+	font-weight: normal;
+}
+.precioClubFicha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #154285;
+	line-height: 15px;
+	font-weight: normal;
+        letter-spacing: 0;
+}
+.precioClubFichaV {
+	font-family: LatoWebHeavy;
+	font-size: 15pt;
+	color: #2ab5b3;
+        width: 210px;
+	font-weight: normal;
+}
+.precioClubFichaVL3 {
+	
+        width: 120px;
+	text-align: center;
+        
+}
+.precioClubFichaVL {
+	font-family: LatoWebHeavy;
+	font-size: 10pt;
+	color: #2ab5b3;
+        width: 120px;
+	font-weight: normal;
+       
+}
+.precioClubFichaImgVL {
+	
+}
+
+.precioResultadoN{
+    font-family: LatoWeb;
+    font-size: 8pt;
+    color: #005357;
+}
+.precioResultadoI{
+    font-family: LatoWebBold;
+    font-size: 10pt;
+    color: #005357;
+    padding-bottom: 2pt;
+}
+.precioResultadoC{
+    font-family: LatoWebHeavy;
+    font-size: 12pt;
+    color: #2ab5b3;
+    width: 170px;
+    padding-bottom: 2pt;
+}
+.precioClienteFichaI{
+    font-family: LatoWebBold;
+    font-size: 9pt;
+    color: #005357;
+}
+.precioClienteFichaN{
+    font-family: LatoWeb;
+    font-size: 8pt;
+    color: #005357;
+}
+.precioClienteFichaC{
+    font-family: LatoWebHeavy;
+    font-size: 11pt;
+    color: #2ab5b3;
+}
+.precioClubFichaVL2 {
+	font-family: LatoWebHeavy;
+	font-size: 15pt;
+	color: #2ab5b3;
+        width: 80px;
+	font-weight: normal;
+}
+
+.precioClubFichaImgVL2 {
+     margin-top: 3px;
+     margin-bottom: 3px;
+	
+}
+
+.precioClubFicha2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #154285;
+	line-height: 15px;
+	font-weight: normal;
+        letter-spacing: 0;
+}
+.precioClubFichaV2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #154285;
+	font-weight: normal;
+}
+.clubLogoFicha
+{
+    width: 100%;
+    background-color: #4992C8;
+}
+.clubLogoFicha.img{ float: left}
+.clubLogoFicha.precioClubfichaV{ float: right}
+.txtTitulosSubCategoria {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #83835C;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+a.txtTitulosSubCategoria:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #83835C;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+a.txtTitulosSubCategoria:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #83835C;
+	line-height: 15px;
+	font-weight: normal;
+	text-decoration: none;
+}
+a.txtTitulosSubCategoria:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #83835C;
+	line-height: 15px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+a.fichasMasVendidos{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #083054;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+a.fichasMasVendidos:hover{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #083054;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+a.fichasMasVendidos:link{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #083054;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+a.fichasMasVendidos:visited{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #083054;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.fichaPrecio{
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none
+}
+.comentarios{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #083054;
+	line-height: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.imagenChico{
+    background-image:url("/antartica/new_gfx/pinguino-apagado_chico.jpg");
+    background-repeat: no-repeat;
+    border: 0px;
+}
+.imagenChicoPrendido{
+    background-image:url("/antartica/new_gfx/pinguino_prendido_chico.jpg");
+    background-repeat: no-repeat;
+    border: 0px;
+}
+.btFav{
+    width:137px;
+    height: 35px;
+    background-image: url('/antartica/new_gfx/btn_deseos.gif');
+    border: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.btnDeploy{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btnDeploy:hover{
+    border-color: #005457;
+}
+.ver_menu { 
+    display:block;
+    padding:0px;
+    margin: 0px;
+}
+.ocultar_menu { 
+    display:none; 
+    padding:0px;
+    margin: 0px;
+}
+.title{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+
+/*M Carrasco */
+.precioAhorro{
+   color:#000;
+   font-family:  Verdana, Arial, Helvetica, sans-serif;
+   font-size: 9px;
+   /*font-weight: bold;*/
+   
+}
+.precioPercentAhorro{
+   color:#701212;
+   font-family:  Verdana, Arial, Helvetica, sans-serif;
+   font-size: 9px;
+}
+
+.descuentoPorRegistro{
+    color:#000;
+   font-family:   Arial;
+   font-size: 10px;
+}
+
+.descripcionTitulo{
+  font-family: Arial;
+  font-size: 10pt;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
