@@ -4,7 +4,9 @@ body {
 }
 
 /*navbar*/
-
+.barra_nav img {
+  width: 10rem;
+}
 .barra_nav {
   background-color: #005f69!important;
   text-decoration: none;
@@ -13,18 +15,17 @@ body {
   color:#b8c3c4;
 }
 
-.barra_nav a:hover {
+.barra_nav a:hover, .navbar__icon:hover{
   color:#fff;
 }
 
 .navbar__icon {
-  color:#fff;
-  padding-right: 15px;
+  color:#b8c3c4;
+  padding: 15px;
 }
 
-
-@media (min-width: 576px) {
-  
+input {
+  width: 12rem!important;
 }
 
 /* slider*/
