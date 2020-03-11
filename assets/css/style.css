@@ -162,3 +162,56 @@ color: #0000;
       
   }
 }
+
+/*footer*/
+footer{
+  background-color: #005f69;
+  margin: 0px;
+}
+.footer-bottom {
+  background-color: #005f69;
+  color: white;
+}
+
+.footer-logo{
+  width: 90%;
+  margin-left: 15px;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.social-networks {
+  color: white;
+  margin: 0px 40px 0px 40px;
+}
+.social-networks i{
+  color: white;
+}
+.footer-menu{
+  padding-top: 20px;
+}
+@media (max-width: 767.98px) { 
+  .footer-menu{
+  margin-right: 50px;
+  text-align: center;
+}}
+
+.footer-menu a{
+  color: white;
+}
+
+.footer-menu h4{
+  padding-left: 40px;
+}
+
+hr{
+ border: 0.1px solid;
+  color: white;
+}
+
+.info-name{
+  text-align: center;
+}
