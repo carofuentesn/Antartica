@@ -16,7 +16,7 @@ body {
 }
 
 .barra_nav a:hover, .navbar__icon:hover{
-  color:#fff;
+  color: white;
 }
 
 .navbar__icon {
@@ -25,7 +25,18 @@ body {
 }
 
 input {
-  width: 12rem!important;
+  width: 10rem!important;
+  margin: 0;
+}
+.buscador input{
+  margin: 0!important;
+}
+
+.buscador {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* slider*/
@@ -168,6 +179,11 @@ footer{
   background-color: #005f69;
   margin: 0px;
 }
+
+footer a{
+  text-decoration: none;
+}
+
 .footer-bottom {
   background-color: #005f69;
   color: white;
