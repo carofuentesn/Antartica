@@ -5,8 +5,15 @@ body {
 
 /*navbar*/
 .barra_nav img {
-  width: 10rem;
+  width: 9rem;
 }
+
+@media (min-width: 576px) {
+  .barra_nav img {
+    width: 10rem;
+  }
+}
+
 .barra_nav {
   background-color: #005f69!important;
   text-decoration: none;
@@ -21,7 +28,7 @@ body {
 
 .navbar__icon {
   color:#b8c3c4;
-  padding: 15px;
+  padding: 10px;
 }
 
 input {
@@ -37,6 +44,10 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.padding__iconos i{
+  padding: 5px;
 }
 
 /* slider*/
