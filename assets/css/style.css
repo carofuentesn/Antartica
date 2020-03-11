@@ -144,11 +144,21 @@ input {
 .fondo__color{
   background-color: #f2f5ff;
 }
+.producto a {
+color: #0000;
+}
 
 @media (max-width: 576px) {
   .producto button{
       font-size: 9px;
       margin-top: 15px;
       padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .contenedor{
+      padding: 0 30px;
+      
   }
 }
