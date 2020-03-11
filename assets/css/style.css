@@ -31,7 +31,7 @@ input {
 /* slider*/
 
 .navbar__slider-img1 {
-  background-image: url(../img/home-slider-image-1.jpg);
+  background-image: url(../img/home-slider-mobile-01.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -39,7 +39,7 @@ input {
   background-repeat: no-repeat;
 }
 
-/* Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .navbar__slider-img1 {
     background-image: url(../img/home-slider-image-1.jpg);
@@ -49,7 +49,8 @@ input {
     background-position: center;
     background-repeat: no-repeat;
   }
-}*/
+}
+
 
 .carousel-inner,
 .carousel-item,
