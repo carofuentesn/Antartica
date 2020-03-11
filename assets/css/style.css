@@ -29,29 +29,24 @@ input {
 }
 
 /* slider*/
+
 .navbar__slider-img1 {
   background-image: url(../img/home-slider-image-1.jpg);
   height: 100%;
-  width: 320px;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-  .navbar__slider-img1 {
-    background-image: url(../img/home-slider-image-1.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }  
+.navbar__slider-img2 {
+  background-image: url(../img/home-slider-image-2.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
-
 .carousel-inner,
 .carousel-item,
 .carousel {
