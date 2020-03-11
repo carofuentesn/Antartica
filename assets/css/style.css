@@ -39,17 +39,115 @@ input {
   background-repeat: no-repeat;
 }
 
-.navbar__slider-img2 {
-  background-image: url(../img/home-slider-image-2.jpg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .navbar__slider-img1 {
+    background-image: url(../img/home-slider-image-1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}*/
+
 .carousel-inner,
 .carousel-item,
 .carousel {
   height: 100vh;
   width: 100vw;
+}
+
+/* Producto */
+.contenedor{
+  padding: 0 100px;
+}
+
+.titulo__seccion{
+  margin: 0;
+  padding: 0;
+  color: #3C3C3C;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.ofertas__subrayado{
+  background-color: #005F69;
+  width: 80px;
+  height: 2.5px;
+  margin: 8px 0 50px 0;
+  padding: 0;
+}
+
+.producto{
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.producto img{
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 23px -18px rgba(89,89,89,1);
+  margin-bottom: 15px;
+}
+.producto a:link{
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.producto a:hover{
+  text-decoration: none;
+}
+
+.producto h3{
+  margin: 5px 0;
+  padding: 0;
+  color: #666;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.producto p{
+  margin: 0;
+  padding: 0;
+  color: #005F69;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.producto button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+  background-color: #F39200;
+  border: none;
+  padding: 10px 32px;
+}
+
+.producto button:hover{
+  background-color: #F29E30;
+}
+
+.margen__secciones{
+  padding: 60px 0;
+  margin: 60px 0;
+}
+
+.fondo__color{
+  background-color: #f2f5ff;
+}
+
+@media (max-width: 576px) {
+  .producto button{
+      font-size: 9px;
+      margin-top: 15px;
+      padding: 10px 20px;
+  }
 }

@@ -8,7 +8,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--fontawesome-->
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+  <!--Fontawesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -17,12 +19,13 @@
 
 <body>
   <!-- Navbar -->
-   <nav class="navbar navbar-expand-lg navbar-dark fixed-top barra_nav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top barra_nav">
     <img src="assets/img/logotipo-02.png" alt="logo">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
@@ -39,7 +42,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Regalos</a>
-        </li> 
+        </li>
         <li><i class="fas fa-user navbar__icon"></i></li>
         <li><i class="fas fa-shopping-basket navbar__icon"></i></li>
       </ul>
@@ -70,7 +73,7 @@
           <div class="navbar__slider-img1" alt="Third slide"></div>
         </div>
       </div>
-      
+
       <!-- Controles -->
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -83,68 +86,239 @@
     </div>
   </header>
   <!-- Ofertas -->
-  <section id="ofertas">
-    <div class="container">
+  <section id="ofertas" class="mt-5">
+    <div class="contenedor">
+
+      <h2 class="titulo__seccion">Ofertas</h2>
+      <div class="ofertas__subrayado"></div>
+
       <div class="row">
+
         <!-- Libro 1 -->
-        <div class="col-md-3 col-12 mb-4">
-          <div class="card border-0 shadow transform-on-hover">
-            <a class="" href="http://issuu.com/urock.magazine/docs/urock_v_web_completa">
-              <img src="assets/img/home-slider-image-4.jpg" class="card-img-top" alt="U'Rock Magazine">
-            </a>
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">U'Rock Magazine</h5>
-              <p class="card-text text-black-50">Narrativa Transmedia</p>
-            </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="producto">
+            <a href="#"><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
           </div>
         </div>
+
         <!-- Libro 2 -->
-        <div class="col-md-3 col-12 mb-4">
-          <div class="card border-0 shadow transform-on-hover">
-            <a class="" href="https://www.asics.cl/">
-              <img src="assets/img/home-slider-image-4.jpg" class="card-img-top" alt="Asics">
-            </a>
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">Asics KAYANO-26</h5>
-              <p class="card-text text-black-50">Diseño Web</p>
-            </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
           </div>
         </div>
+
         <!-- Libro 3 -->
-        <div class="col-md-3 col-12 mb-4">
-          <div class="card border-0 shadow transform-on-hover">
-            <a class="" href="http://issuu.com/urock.magazine/docs/urock_v_web_completa">
-              <img src="assets/img/home-slider-image-4.jpg" class="card-img-top" alt="U'Rock Magazine">
-            </a>
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">U'Rock Magazine</h5>
-              <p class="card-text text-black-50">Narrativa Transmedia</p>
-            </div>
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
           </div>
         </div>
+
         <!-- Libro 4 -->
-        <div class="col-md-3 col-12 mb-4">
-          <div class="card border-0 shadow transform-on-hover">
-            <a class="" href="https://www.asics.cl/">
-              <img src="assets/img/home-slider-image-4.jpg" class="card-img-top" alt="Asics">
-            </a>
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">Asics KAYANO-26</h5>
-              <p class="card-text text-black-50">Diseño Web</p>
-            </div>
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 5 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none  d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 6 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
           </div>
         </div>
       </div>
     </div>
-    </div>
+  </section>
+
+  <!-- Destacados -->
+  <section id="destacados" class="margen__secciones fondo__color">
+    <div class="contenedor">
+
+      <h2 class="titulo__seccion">Destacados</h2>
+      <div class="ofertas__subrayado"></div>
+
+      <div class="row">
+
+        <!-- Libro 1 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="producto">
+            <a href="#"><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 2 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 3 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 4 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 5 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none  d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 6 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!-- Destacados -->
-  <section></section>
+
   <!-- Los más vendidos -->
-  <section></section>
-  <!-- Footer -->
-  <footer></footer>
+  <section id="masvendidos" class="mb-5">
+    <div class="contenedor">
+
+      <h2 class="titulo__seccion">Los más vendidos</h2>
+      <div class="ofertas__subrayado"></div>
+
+      <div class="row">
+
+        <!-- Libro 1 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="producto">
+            <a href="#"><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 2 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 3 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 4 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 5 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none  d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+
+        <!-- Libro 6 -->
+        <div class="col-6 col-md-4 col-lg-2 d-none d-md-none d-lg-block">
+          <div class="producto">
+            <a href=""><img src="assets/img/libro-1.jpeg" alt="Nombre Libro"></a>
+            <a href="#" alt="Titulo Libro">Titulo Libro</a>
+            <h3 alt="Nombre Autor Libro">Nombre autor</h3>
+            <p alt="Precio Libro">Precio</p>
+            <button class="btn btn-dark" type="submit" alt="Botón Compa">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
